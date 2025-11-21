@@ -1,9 +1,9 @@
-PWD c:/Users/LENOVO/Desktop/4222 Report/STAGN/Report
+PWD c:/Users/LENOVO/Desktop/Traffic_prediction/Report
 INPUT e:/VS Code/texlive/2024/texmf.cnf
 INPUT e:/VS Code/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT e:/VS Code/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/LENOVO/Desktop/4222 Report/STAGN/Report/report.tex
-OUTPUT report.log
+INPUT c:/Users/LENOVO/Desktop/Traffic_prediction/Report/main.tex
+OUTPUT main.log
 INPUT e:/VS Code/texlive/2024/texmf-dist/tex/latex/base/article.cls
 INPUT e:/VS Code/texlive/2024/texmf-dist/tex/latex/base/article.cls
 INPUT e:/VS Code/texlive/2024/texmf-dist/tex/latex/base/size12.clo
@@ -310,12 +310,14 @@ INPUT e:/VS Code/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT e:/VS Code/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT e:/VS Code/texlive/2024/texmf-dist/tex/latex/titlesec/titlesec.sty
 INPUT e:/VS Code/texlive/2024/texmf-dist/tex/latex/titlesec/titlesec.sty
+INPUT e:/VS Code/texlive/2024/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT e:/VS Code/texlive/2024/texmf-dist/tex/latex/booktabs/booktabs.sty
 INPUT e:/VS Code/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT e:/VS Code/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT ./report.aux
-INPUT ./report.aux
-INPUT report.aux
-OUTPUT report.aux
+INPUT ./main.aux
+INPUT ./main.aux
+INPUT main.aux
+OUTPUT main.aux
 INPUT e:/VS Code/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT e:/VS Code/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT e:/VS Code/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -324,14 +326,14 @@ INPUT e:/VS Code/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.st
 INPUT e:/VS Code/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT e:/VS Code/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT e:/VS Code/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-INPUT ./report.out
-INPUT ./report.out
-INPUT report.out
-INPUT report.out
-OUTPUT report.pdf
-INPUT ./report.out
-INPUT ./report.out
-OUTPUT report.out
+INPUT ./main.out
+INPUT ./main.out
+INPUT main.out
+INPUT main.out
+OUTPUT main.pdf
+INPUT ./main.out
+INPUT ./main.out
+OUTPUT main.out
 INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
@@ -361,13 +363,70 @@ INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/tfm/public/rsfs/rsfs7.tfm
 INPUT e:/VS Code/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
-INPUT ./report.toc
-INPUT ./report.toc
-INPUT report.toc
+INPUT ./main.toc
+INPUT ./main.toc
+INPUT main.toc
 INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-OUTPUT report.toc
-INPUT report.aux
-INPUT ./report.out
-INPUT ./report.out
+INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
+INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
+INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
+INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
+OUTPUT main.toc
+INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT ./temporal_attention.png
+INPUT ./temporal_attention.png
+INPUT ./temporal_attention.png
+INPUT ./temporal_attention.png
+INPUT ./temporal_attention.png
+INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT ./spatial_attention.png
+INPUT ./spatial_attention.png
+INPUT ./spatial_attention.png
+INPUT ./spatial_attention.png
+INPUT ./spatial_attention.png
+INPUT ./GMAN.png
+INPUT ./GMAN.png
+INPUT ./GMAN.png
+INPUT ./GMAN.png
+INPUT ./GMAN.png
+INPUT ./Test result.png
+INPUT ./Test result.png
+INPUT ./Test result.png
+INPUT ./Test result.png
+INPUT ./Test result.png
+INPUT ./main.bbl
+INPUT ./main.bbl
+INPUT main.bbl
+INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
+INPUT main.aux
+INPUT ./main.out
+INPUT ./main.out
 INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
+INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
+INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
+INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
+INPUT e:/VS Code/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb

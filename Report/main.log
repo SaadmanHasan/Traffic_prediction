@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.30)  28 NOV 2024 13:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.30)  21 NOV 2025 09:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/LENOVO/Desktop/4222 Report/STAGN/Report/report.tex"
-(c:/Users/LENOVO/Desktop/4222 Report/STAGN/Report/report.tex
+**c:/Users/LENOVO/Desktop/Traffic_prediction/Report/main.tex
+(c:/Users/LENOVO/Desktop/Traffic_prediction/Report/main.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
 (e:/VS Code/texlive/2024/texmf-dist/tex/latex/base/article.cls
@@ -599,34 +599,58 @@ Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \titlewidth=\dimen319
 \titlewidthlast=\dimen320
 \titlewidthfirst=\dimen321
+) (e:/VS Code/texlive/2024/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen322
+\lightrulewidth=\dimen323
+\cmidrulewidth=\dimen324
+\belowrulesep=\dimen325
+\belowbottomsep=\dimen326
+\aboverulesep=\dimen327
+\abovetopsep=\dimen328
+\cmidrulesep=\dimen329
+\cmidrulekern=\dimen330
+\defaultaddspace=\dimen331
+\@cmidla=\count334
+\@cmidlb=\count335
+\@aboverulesep=\dimen332
+\@belowrulesep=\dimen333
+\@thisruleclass=\count336
+\@lastruleclass=\count337
+\@thisrulewidth=\dimen334
 )
-\c@Thm=\count334
-\c@problem=\count335
+\c@Thm=\count338
+\c@problem=\count339
  (e:/VS Code/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count336
+\l__color_backend_stack_int=\count340
 \l__pdf_internal_box=\box71
-) (./report.aux)
-\openout1 = `report.aux'.
+)
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
+LaTeX Warning: Unused global option(s):
+    [pt].
+
+(./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -664,16 +688,16 @@ LaTeX Font Info:    ... okay on input line 51.
 
 (e:/VS Code/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count337
-\scratchdimen=\dimen322
+\scratchcounter=\count341
+\scratchdimen=\dimen335
 \scratchbox=\box72
-\nofMPsegments=\count338
-\nofMParguments=\count339
+\nofMPsegments=\count342
+\nofMParguments=\count343
 \everyMPshowfont=\toks54
-\MPscratchCnt=\count340
-\MPscratchDim=\dimen323
-\MPnumerator=\count341
-\makeMPintoPDFobject=\count342
+\MPscratchCnt=\count344
+\MPscratchDim=\dimen336
+\MPnumerator=\count345
+\makeMPintoPDFobject=\count346
 \everyMPtoPDFconversion=\toks55
 ) (e:/VS Code/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -687,29 +711,29 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 51.
-(./report.out) (./report.out)
+Package hyperref Info: Link coloring OFF on input line 52.
+(./main.out) (./main.out)
 \@outlinefile=\write4
-\openout4 = `report.out'.
+\openout4 = `main.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 54.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 55.
  (e:/VS Code/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 54.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 55.
  (e:/VS Code/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 54.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 55.
  (e:/VS Code/texlive/2024/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 
 [1
 
-{e:/VS Code/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./report.toc)
+{e:/VS Code/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./main.toc)
 \tf@toc=\write5
-\openout5 = `report.toc'.
+\openout5 = `main.toc'.
 
 
 
@@ -717,35 +741,66 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.58 \newpage
+l.59 \newpage
               [1]
-Underfull \hbox (badness 10000) in paragraph at lines 61--72
 
- []
+[2]
+<temporal_attention.png, id=93, 417.81094pt x 200.24812pt>
+File: temporal_attention.png Graphic file (type png)
+<use temporal_attention.png>
+Package pdftex.def Info: temporal_attention.png  used on input line 111.
+(pdftex.def)             Requested size: 203.83417pt x 97.69466pt.
+<spatial_attention.png, id=95, 435.12563pt x 202.50656pt>
+File: spatial_attention.png Graphic file (type png)
+<use spatial_attention.png>
+Package pdftex.def Info: spatial_attention.png  used on input line 114.
+(pdftex.def)             Requested size: 203.83417pt x 94.866pt.
+<GMAN.png, id=96, 587.94656pt x 459.96844pt>
+File: GMAN.png Graphic file (type png)
+<use GMAN.png>
+Package pdftex.def Info: GMAN.png  used on input line 126.
+(pdftex.def)             Requested size: 317.07614pt x 248.0564pt.
 
 
+[3 <./temporal_attention.png> <./spatial_attention.png>]
 
-[2] (./report.aux)
+[4 <./GMAN.png>]
+
+[5]
+
+[6]
+<Test result.png, id=124, 746.79pt x 252.945pt>
+File: Test result.png Graphic file (type png)
+<use Test result.png>
+Package pdftex.def Info: Test result.png  used on input line 202.
+(pdftex.def)             Requested size: 452.9679pt x 153.42395pt.
+
+
+[7 <./Test result.png>]
+
+[8] (./main.bbl)
+
+[9] (./main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
  ***********
-Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 2B78D600C4AA2C69898B962700D85C43;196.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: F4DC1F433A43EBEC871CDFA4FE4E0E41;1786.
  ) 
 Here is how much of TeX's memory you used:
- 50088 strings out of 473579
- 1280670 string characters out of 5728205
- 1987331 words of memory out of 5000000
- 72422 multiletter control sequences out of 15000+600000
- 563288 words of font info for 57 fonts, out of 8000000 for 9000
+ 50284 strings out of 473579
+ 1283770 string characters out of 5728205
+ 1995310 words of memory out of 5000000
+ 72580 multiletter control sequences out of 15000+600000
+ 569083 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,6n,107p,774b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<e:/VS Code/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><e:/VS Code/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on report.pdf (3 pages, 35580 bytes).
+ 99i,8n,107p,771b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<e:/VS Code/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><e:/VS Code/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><e:/VS Code/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><e:/VS Code/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><e:/VS Code/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><e:/VS Code/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><e:/VS Code/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><e:/VS Code/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><e:/VS Code/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><e:/VS Code/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><e:/VS Code/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><e:/VS Code/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><e:/VS Code/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (10 pages, 315612 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
- 34 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
- 29 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 204 PDF objects out of 1000 (max. 8388607)
+ 156 compressed objects within 2 object streams
+ 27 named destinations out of 1000 (max. 500000)
+ 137 words of extra memory for PDF output out of 10000 (max. 10000000)
 
