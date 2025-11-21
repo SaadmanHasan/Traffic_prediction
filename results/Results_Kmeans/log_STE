@@ -1,0 +1,38 @@
+time_slot=5, num_his=12, num_pred=12, L=1, K=8, d=8, train_ratio=0.7, val_ratio=0.1, test_ratio=0.2, batch_size=32, max_epoch=1, patience=10, learning_rate=0.001, decay_epoch=10, traffic_file='./data/pems-bay.h5', SE_file='./data/SE(PeMS).txt', model_file='./Results_Kmeans/GMAN_STE.pkl', log_file='./Results_Kmeans/log_STE'
+loading data...
+trainX: torch.Size([327, 12, 325])		 trainY: torch.Size([327, 12, 325])
+valX:   torch.Size([27, 12, 325])		valY:   torch.Size([27, 12, 325])
+testX:   torch.Size([77, 12, 325])		testY:   torch.Size([77, 12, 325])
+mean:   67.0568		std:   3.3017
+data loaded!
+compiling model...
+trainable parameters: 209,923
+**** training model ****
+2024-11-23 00:56:30 | epoch: 0001/1, training time: 133.9s, inference time: 2.7s
+train loss: 6.6437, val_loss: 126.0633
+val loss decrease from inf to 126.0633, saving model to ./Results_Kmeans/GMAN_STE.pkl
+Training and validation are completed, and model has been stored as ./Results_Kmeans/GMAN_STE.pkl
+**** testing model ****
+loading model from ./Results_Kmeans/GMAN_STE.pkl
+model restored!
+evaluating...
+testing time: 7.3s
+                MAE		RMSE		MAPE
+train            1.64		3.19		2.70%
+val              6.97		11.23		15.41%
+test             4.68		9.23		12.34%
+performance in each prediction step
+step: 01         5.45		10.33		14.94%
+step: 02         5.31		10.16		14.49%
+step: 03         5.17		9.97		14.03%
+step: 04         5.03		9.78		13.56%
+step: 05         4.89		9.57		13.09%
+step: 06         4.75		9.36		12.61%
+step: 07         4.61		9.15		12.15%
+step: 08         4.47		8.93		11.68%
+step: 09         4.33		8.70		11.19%
+step: 10         4.19		8.44		10.66%
+step: 11         4.04		8.16		10.11%
+step: 12         3.89		7.86		9.53%
+average:         4.68		9.20		12.34%
+total time: 3.0min

@@ -1,0 +1,38 @@
+time_slot=5, num_his=12, num_pred=12, L=1, K=8, d=8, train_ratio=0.7, val_ratio=0.1, test_ratio=0.2, batch_size=32, max_epoch=1, patience=10, learning_rate=0.001, decay_epoch=10, traffic_file='./data/pems-bay.h5', SE_file='./data/SE(PeMS).txt', model_file='./Results_GMAN/model_parameters2.pkl', log_file='./Results_GMAN/log2'
+loading data...
+trainX: torch.Size([36458, 12, 325])		 trainY: torch.Size([36458, 12, 325])
+valX:   torch.Size([5189, 12, 325])		valY:   torch.Size([5189, 12, 325])
+testX:   torch.Size([10400, 12, 325])		testY:   torch.Size([10400, 12, 325])
+mean:   62.7354		std:   9.4388
+data loaded!
+compiling model...
+trainable parameters: 209,923
+**** training model ****
+2024-11-23 19:52:59 | epoch: 0001/1, training time: 7055.9s, inference time: 365.1s
+train loss: 23.6790, val_loss: 20.5488
+val loss decrease from inf to 20.5488, saving model to ./Results_GMAN/model_parameters2.pkl
+Training and validation are completed, and model has been stored as ./Results_GMAN/model_parameters2.pkl
+**** testing model ****
+loading model from ./Results_GMAN/model_parameters2.pkl
+model restored!
+evaluating...
+testing time: 773.6s
+                MAE		RMSE		MAPE
+train            2.04		4.08		nan%
+val              2.20		4.50		nan%
+test             2.11		4.31		nan%
+performance in each prediction step
+step: 01         1.72		3.46		nan%
+step: 02         1.81		3.63		nan%
+step: 03         1.89		3.82		nan%
+step: 04         1.96		3.98		nan%
+step: 05         2.03		4.14		nan%
+step: 06         2.10		4.28		nan%
+step: 07         2.16		4.40		nan%
+step: 08         2.22		4.52		nan%
+step: 09         2.28		4.63		nan%
+step: 10         2.33		4.74		nan%
+step: 11         2.39		4.84		nan%
+step: 12         2.44		4.94		nan%
+average:         2.11		4.28		nan%
+total time: 188.0min
