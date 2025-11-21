@@ -12,20 +12,21 @@ Figure: GMAN Model
 
 In the original GMAN model, given a node $v_i$ at time step $t$, its attention score to all of the other time steps of the same node uses a multi-head approach as shown. 
 
-\[ u_{t_j, t}^{(k)} = \frac{f_{t,1}^{(k)}(h_{v_1, t_j}^{(l-1)} || e_{v_i, t_j}) \cdot f_{t, 2}^{(k)}(h_{v_i, t}^{(l-1)} || e_{v_i, t})}{\sqrt{d}}, \quad \beta_{t_j, t}^{(k)} = \frac{\exp(u_{t_j, t}^{(k)})}{\sum\limits_{t_r} \exp(u_{t_j,t_r}^{(k)})}\]
+<img width="759" height="155" alt="image" src="https://github.com/user-attachments/assets/c1137c17-4146-4c8c-8a8a-7cb388fd094c" />
 
 Next, using these attentions, the temporal embedding is calculated by 
 
-\[ ht^{(l)}_{v_i, t_j} = ||^{K}_{k=1} \left\{ \sum\limits_{t\in N_{t_j}} \beta^{(k)}_{t_j, t} \cdot f_{t,3}^{(k)} (h_{v_i, t}^{(l-1)}) \right\}\]
+<img width="487" height="131" alt="image" src="https://github.com/user-attachments/assets/8a8f4658-9c14-4f16-a200-bb1a8630c684" />
 
 In STAGN, given a node $v_i$ at time step $t$, the goal is to calculate its attention score to all of the other time steps of each node belonging to the same cluster as $v_i$. Now, suppose $v_k$ is some node in the cluster with $v_i$ which is called $C_{v_i}$, then the attentions are calculated using the same multihead approach as shown: 
-\[ u_{v_s, t_j, t}^{(k)} = \frac{f_{t,1}^{(k)}(h_{v_i, t_j}^{(l-1)} || e_{v_i, t_j}) \cdot f_{t, 2}^{(k)}(h_{v_s, t}^{(l-1)} || e_{v_s, t})}{\sqrt{d}}, \quad \beta_{v_s, t_j, t}^{(k)} = \frac{\exp(u_{v_s, t_j, t}^{(k)})}{\sum\limits_{v_s \in C_{v_i}}\sum\limits_{t_r} \exp(u_{v_s, t_j,t_r}^{(k)})}\]
+
+<img width="886" height="140" alt="image" src="https://github.com/user-attachments/assets/083b7719-eddf-434c-a1c1-048aa295f0f8" />
 
 After calculating the attentions, the temporal embedding will be 
 
-\[ ht^{(l)}_{v_i, t_j} = ||^{K}_{k=1} \left\{ \sum\limits_{t\in N_{t_j}} \sum_{v_s\in C_{v_i}} \beta^{(k)}_{v_s, t_j, t} \cdot f_{t,3}^{(k)} (h_{v_s, t}^{(l-1)}) \right\}\]
+<img width="581" height="130" alt="image" src="https://github.com/user-attachments/assets/00016de0-5925-433d-921d-53ee0e24ec3a" />
 
-For the implementation of this to our STAGN, first the groupings generated from the balanced spectral clustering is used. Then balanced spectral clustering is done on 325 nodes to generate 65 groups of 5 nodes each. The data is then rearranged so that all the nodes belonging to the same cluster are grouped together. After this, a matrix is created which contains all the values of $(h_{v_i, t_j}^{(l-1)})$ passed through $f_{t,1}^{(k)}$ and another matrix which represents the embeddings passed through $f_{t,2}^{(k)}$ and $f_{t,3}^{(k)}$. Then matrix multiplications is usedto do the computations of the temporal embeddings.  
+For the implementation of this to STAGN, first the groupings generated from the balanced spectral clustering is used. Then balanced spectral clustering is done on 325 nodes to generate 65 groups of 5 nodes each. The data is then rearranged so that all the nodes belonging to the same cluster are grouped together. After this, a matrix is created which contains all the values of $(h_{v_i, t_j}^{(l-1)})$ passed through $f_{t,1}^{(k)}$ and another matrix which represents the embeddings passed through $f_{t,2}^{(k)}$ and $f_{t,3}^{(k)}$. Then matrix multiplications is usedto do the computations of the temporal embeddings.  
 
 ## Contributions
 The codebase is implemented by @SaadmanHasan, @KantianKnight & RCTGamer, as well as the original GMAN codebase. 
