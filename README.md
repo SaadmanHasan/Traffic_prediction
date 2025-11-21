@@ -29,7 +29,7 @@ After calculating the attentions, the temporal embedding will be
 For the implementation of this to STAGN, first the groupings generated from the balanced spectral clustering is used. Then balanced spectral clustering is done on 325 nodes to generate 65 groups of 5 nodes each. The data is then rearranged so that all the nodes belonging to the same cluster are grouped together. After this, a matrix is created which contains all the values of $(h_{v_i, t_j}^{(l-1)})$ passed through $f_{t,1}^{(k)}$ and another matrix which represents the embeddings passed through $f_{t,2}^{(k)}$ and $f_{t,3}^{(k)}$. Then matrix multiplications is usedto do the computations of the temporal embeddings.  
 
 ## Contributions
-The codebase is implemented by @SaadmanHasan, @KantianKnight & RCTGamer, as well as the original GMAN codebase. 
+The codebase is implemented by @SaadmanHasan, @KantianKnight & @RCTGamer, and uses the original GMAN codebase. 
 
 ##  Requirements
 * Python
